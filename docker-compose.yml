@@ -1,0 +1,13 @@
+# Configuration file to build and run tests in a docker container
+version: '3'
+
+services:
+  dev_env:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    container_name: dev_env
+    volumes:
+      - ./:/home/follow_me
+    working_dir: /home/follow_me
+    command: bash
