@@ -1,0 +1,4 @@
+clip a 2 1.0 0.0 previous none
+clip b 2 1.0 0.0 previous none
+clip c 3 1.0 0.0 next none
+ticks 10
